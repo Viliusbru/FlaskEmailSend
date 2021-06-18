@@ -32,7 +32,7 @@ def index():
         subj = request.form['subject']
         zin = request.form['zinute']     
         funkcija(email, subj, zin)
-    return render_template('index2.html')
+    return render_template('index.html')
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=8000, debug=True)
