@@ -1,1 +1,1 @@
-# FlaskEmailSend
+# FlaskSendEmail
